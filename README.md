@@ -8,17 +8,17 @@ The dataset includes sales figures for different regions: North America (NA), Eu
 - Source: [Kaggle - Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales)
 - Rows: 16,599
 The dataset contains 12 rows of detailed information on video game sales, including:
-Rank – overall sales ranking
-Name – title of the game
-Platform – the gaming platform on which the game was released (e.g., Wii, PS2, PC)
-Year – year of release
-Genre – game genre (e.g., Sports, Adventure, Platform).
-Publisher – game publisher.
+Rank – overall sales ranking, 
+Name – title of the game, 
+Platform – the gaming platform on which the game was released (e.g., Wii, PS2, PC), 
+Year – year of release, 
+Genre – game genre (e.g., Sports, Adventure, Platform), 
+Publisher – game publisher, 
 Regional Sales – sales in millions of units for:
-NA – North America
-EU – Europe
-JP – Japan
-Other – other regions
+NA – North America, 
+EU – Europe, 
+JP – Japan, 
+Other – other regions, 
 Global Sales – total worldwide sales
 
 ## Tools Used
@@ -29,7 +29,7 @@ Global Sales – total worldwide sales
 
 ## Analysis Overview
 
-Project Goal:
+**Project Goal:**
 The aim of this analysis was to explore global video game sales data to uncover insights about publishers, genres, and top-selling games across different regions and years.
 
 **Objectives:**
@@ -49,8 +49,11 @@ Created a chart for global sales by publisher.
 **Findings:**
 Nintendo is the top publisher in most regions; only in "Other" does Electronic Arts lead.
 In Japan, the ranking differs: Nintendo is first, followed by Namco Bandai Games and Konami, showing a distinct Japanese market.
+
 <img width="1443" height="592" alt="sales by region" src="https://github.com/user-attachments/assets/b700c856-65cf-4f3e-9e43-4c9370bf16f2" />
+
 I also added a table of publishers by the number of released games shows Nintendo only in 7th place, yet it leads in total sales.
+
 <img width="500" height="510" alt="publisher and count of games" src="https://github.com/user-attachments/assets/a50184c3-f729-423f-b636-8c4574838ced" />
 
 ### 2. Games by Genre
